@@ -1,0 +1,10 @@
+-i https://pypi.org/simple
+argparse==1.4.0
+bsky-bridge==1.0.11; python_version >= '3.6'
+certifi==2025.4.26; python_version >= '3.6'
+charset-normalizer==3.4.2; python_version >= '3.7'
+idna==3.10; python_version >= '3.6'
+pillow==11.2.1; python_version >= '3.9'
+requests==2.32.3; python_version >= '3.8'
+tzdata==2025.2; python_version >= '2'
+urllib3==2.4.0; python_version >= '3.9'

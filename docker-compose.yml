@@ -1,0 +1,18 @@
+services:
+  main:
+    container_name: main
+    build:
+      dockerfile: ./config/Dockerfile
+    volumes:
+      - db:/code/db
+    environment: 
+      - SDR_TRUNK_OPTS="-Djava.awt.headless=true"
+    devices:
+    # Change this to the current appearance of your RTL-SDR dongle - the last number changes each time.
+      - /dev/bus/usb/003/041:/dev/bus/usb/003/041
+    device_cgroup_rules:
+      - 'c 189:* rwm'
+
+
+volumes:
+  db:

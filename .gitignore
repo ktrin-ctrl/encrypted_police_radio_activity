@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+notifier/secret_credentials.py
+
+
+# Encrypted Police Radio Activity project specific ignores
+sdr-trunk-linux-x86_64-v0.6.1/
+notifier/log_scripts/
+notifier/output.xml
+db/activity.db
