@@ -5,5 +5,7 @@ This project uses the wonderful SDR Trunk cross-platform java application to
 decode trunked mobile radio protocols using a RTL-SDR USB dongle and then 
 launches a small script to record transmission metadata in a SQLite database and announces encrypted broadcasts in a skeet.
 
-SDR Trunk is (c)opyright Denny Sheirer, released under GNU  
+(C)opyright Kristina Trinity 2025, released under the GPL3
+
+SDR Trunk is (c)opyright Denny Sheirer, released under GPL  
 https://github.com/DSheirer/sdrtrunk
